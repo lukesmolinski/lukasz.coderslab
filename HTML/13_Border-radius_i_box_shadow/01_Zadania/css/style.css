@@ -1,0 +1,47 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #F0F4F9;
+}
+.row {
+    display: flex;
+}
+.row .col-1-2 {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+@media (max-width: 760px) {
+    .row {
+        flex-direction: column;
+    }
+    .row .col-1-2 {
+        width: 100%;
+    }
+}
+
+/* dopisz właściwe style do odpowiednich selektorów */
+.user {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    background: #fff;
+    padding: 40px;
+}
+.user-avatar {
+    margin: 0 0 20px;
+    max-width: 250px;
+    height: auto;
+}
+.user-name {
+    font-size: 20px;
+    color: #4950F6;
+}
+.user-description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
+.user-btn {
+}
