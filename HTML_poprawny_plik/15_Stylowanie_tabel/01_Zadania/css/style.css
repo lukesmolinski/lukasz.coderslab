@@ -1,0 +1,18 @@
+body {
+    padding:20px;
+    font-family: sans-serif;
+}
+
+/* tutaj stylowanie */
+th{
+    border: 1px solid #aaa;
+    background-color: gold;
+    padding: 20px;
+}
+td{
+    border: 1px solid #aaa;
+    padding: 20px;
+}
+.tab {
+    
+}
